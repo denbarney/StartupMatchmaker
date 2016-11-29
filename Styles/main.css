@@ -10,10 +10,13 @@
 
 .col {
   float: left;
+  max-width: 1280px;
+  vertical-align: baseline;
 }
 
 .c1_3 {
- width: 33.3333% 
+ width: 26% 
+ margin: 0;
 }
   
 
