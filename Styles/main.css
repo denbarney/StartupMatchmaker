@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  
+}
+.row {
+  border: 1px solid black;
+  max-width: 1280px;
+ }
+
+
+.col {
+  float: left;
+}
+
+.c1_3 {
+ width: 33.3333% 
+}
+  
+
+
+/* ********* */
+.Header {
+	background: black;
+	color: white;
+	border-bottom: 4px solid yellow;
+	padding: 10px;
+
+	
+}
+
+.Header__logo {
+  float: left;
+  color: yellow;
+  font-color: 'Merriweather' serif;
+  margin-left: 50px;	
+}
+
+.Header__nav {
+  float: right;
+  margin-right: 50px;
+}
+
+.Header__nav__item {
+	font-color: white;
+	padding: 0 15px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.Tagline {
+	font-family: 'Merriweather' serif;
+	text-align: center;
+	background-color: grey;
+	font-style: italic;
+	border-top: 1px solid grey;
+	margin: 0;
+	padding: 5px;
+}
+
+.Hero {
+   	background: url("../assets/coworking.jpg") no-repeat center center fixed; 
+  	background-size: cover;
+  	overflow: hidden;
+  	padding: 3%;
+}
+
+.CTA {
+	float: right;
+	width: 40%;
+	background-color: white;
+	opacity: .7;
+	min-height: 400px;
+	box-shadow: 0 0 10px black;
+	margin: 50px;
+	padding: 50px;
+}
+
+.Services {}
+
+.Footer {}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+
