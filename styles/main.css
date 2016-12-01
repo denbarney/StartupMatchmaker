@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    cursor: default;
+}
+
+.row {
+  margin: auto;
+  max-width: 1280px;
+ }
+
+
+.col {
+  float: left;
+}
+
+.c1_3 {
+ width: 33.33% 
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1;
+	font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    margin: 20px 0 0 0;	
+}
+  
+h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: strong;
+}
+
+/* ********* */
+.Header {
+	background: black;
+	color: white;
+	border-bottom: 4px solid yellow;
+	padding: 10px;
+
+	
+}
+
+.Header__logo {
+	float: left;
+    color: yellow;
+   
+}
+
+.Header__nav {
+  float: right;
+  
+}
+
+.Header__nav__item {
+	font-color: white;
+	padding: 0 15px;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+.Tagline {
+	font-family: 'Merriweather' serif;
+	text-align: center;
+	background-color: grey;
+	font-style: italic;
+	border-top: 1px solid grey;
+	margin: 0;
+	padding: 5px;
+}
+
+.Hero {
+   	background: url("../assets/coworking.jpg") no-repeat center center fixed; 
+  	background-size: cover;
+  	overflow: hidden;
+  	padding: 3%;
+}
+
+.CTA {
+	float: left;
+	width: auto;
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	line-height: auto;
+
+}
+
+.CTA_right {
+	float: right;
+	width: 40%;
+	background-color: white;
+	opacity: .7;
+	box-shadow: 0 0 10px black;
+	margin: 10px;
+	padding: 10px;
+}
+
+.CTA__button__yellow {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: yellow;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 5px;
+}
+
+.CTA__button {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: grey;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+	border-radius: 5px;
+}
+
+.Services {}
+
+.Footer {}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+footer {
+	background: black;
+    color: white;
+    padding: 2% 3%;
+}
+
+
+
+
+
+
